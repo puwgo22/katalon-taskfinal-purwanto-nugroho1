@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05-TC-Login_Failed_Email_not_Valid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8ffc1ccf-c559-411f-be84-09d4ace6e0b5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cd9d6b31-e27e-4f50-8273-d5ec70c215d5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.password_web</defaultValue>
+      <description></description>
+      <id>cd9d6b31-e27e-4f50-8273-d5ec70c215d5</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

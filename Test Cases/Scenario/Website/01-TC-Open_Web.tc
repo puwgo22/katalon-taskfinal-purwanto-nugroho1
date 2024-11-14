@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-TC-Open_Web</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9fe5c768-dfa7-481e-851b-8b7e9c3d3206</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dbc7a24d-8a74-457c-b7e6-b951963432cc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.baseURLjuice</defaultValue>
+      <description></description>
+      <id>dbc7a24d-8a74-457c-b7e6-b951963432cc</id>
+      <masked>false</masked>
+      <name>baeURL</name>
+   </variable>
+</TestCaseEntity>

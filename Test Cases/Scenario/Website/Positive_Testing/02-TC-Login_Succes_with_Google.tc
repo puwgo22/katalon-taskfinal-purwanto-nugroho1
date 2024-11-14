@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-TC-Login_Succes_with_Google</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>09592f82-7785-49e5-adf1-4fe944da42bb</testCaseGuid>
+</TestCaseEntity>

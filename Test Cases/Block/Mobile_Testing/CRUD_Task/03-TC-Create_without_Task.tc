@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-TC-Create_without_Task</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>78b1e3b1-6054-4ee5-b33a-3ddca62f8659</testCaseGuid>
+</TestCaseEntity>

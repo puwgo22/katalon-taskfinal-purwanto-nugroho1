@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-TC-Delete_BookingID</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6537a717-705a-4587-92fc-04c1473d6dcb</testCaseGuid>
+</TestCaseEntity>

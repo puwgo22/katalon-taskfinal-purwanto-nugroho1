@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>staging_app</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'E:\\Lamaran\\QA\\bootcamp katalon\\katalon sesi 6\\Katalon_Mobile\\Todo_2.0_APKPure.apk'</initValue>
+      <name>baseApp</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

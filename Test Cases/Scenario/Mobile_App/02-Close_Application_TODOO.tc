@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-Close_Application_TODOO</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5d4fcaaf-0b59-4544-9693-866cbb1ac95a</testCaseGuid>
+</TestCaseEntity>

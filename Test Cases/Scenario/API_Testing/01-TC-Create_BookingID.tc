@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-TC-Create_BookingID</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1971d0ba-2176-4064-baf3-4d2b4582d0bf</testCaseGuid>
+</TestCaseEntity>

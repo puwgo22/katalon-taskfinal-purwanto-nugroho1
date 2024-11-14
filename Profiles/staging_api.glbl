@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>staging_api</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://restful-booker.herokuapp.com'</initValue>
+      <name>baseURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin'</initValue>
+      <name>username_admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'password123'</initValue>
+      <name>password_admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>create_token</description>
+      <initValue>'87c9e14cbd61c63'</initValue>
+      <name>token_awal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>booking_id</description>
+      <initValue>'670'</initValue>
+      <name>id</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

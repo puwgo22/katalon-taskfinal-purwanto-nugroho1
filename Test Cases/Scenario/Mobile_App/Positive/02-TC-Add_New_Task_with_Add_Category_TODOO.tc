@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-TC-Add_New_Task_with_Add_Category_TODOO</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>810657a4-5bf7-4f77-8c66-c8a7e8266730</testCaseGuid>
+</TestCaseEntity>

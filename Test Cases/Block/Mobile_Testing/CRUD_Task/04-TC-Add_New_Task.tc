@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-TC-Add_New_Task</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>63cdfb3d-5858-40e2-9b1e-0adb5793eb31</testCaseGuid>
+</TestCaseEntity>

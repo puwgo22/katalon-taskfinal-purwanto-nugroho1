@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04-TC-Copy_Task_TODOO</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0ab5f83a-c46c-481b-829f-be2494d4b38a</testCaseGuid>
+</TestCaseEntity>

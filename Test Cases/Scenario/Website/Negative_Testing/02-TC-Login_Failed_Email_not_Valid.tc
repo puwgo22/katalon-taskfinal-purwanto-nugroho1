@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-TC-Login_Failed_Email_not_Valid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ac646fab-5720-468b-a49d-e3e295ff8e6d</testCaseGuid>
+</TestCaseEntity>

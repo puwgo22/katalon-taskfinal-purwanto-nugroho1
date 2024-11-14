@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>08-TC-Update_Category-TODOO</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>62c78697-033c-4957-9f9d-9283322ee977</testCaseGuid>
+</TestCaseEntity>

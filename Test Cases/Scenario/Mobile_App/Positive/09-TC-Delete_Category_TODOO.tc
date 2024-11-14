@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>09-TC-Delete_Category_TODOO</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c4302a61-b378-4f31-8d4a-de9cdf5b433d</testCaseGuid>
+</TestCaseEntity>

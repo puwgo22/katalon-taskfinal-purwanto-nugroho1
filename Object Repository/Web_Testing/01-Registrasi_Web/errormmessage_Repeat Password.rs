@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>errormmessage_Repeat Password</name>
+   <tag></tag>
+   <elementGuidId>23fd8729-6b33-40af-8e86-1bb7d23faf8b</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='registration-form']/mat-form-field[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-wrapper.ng-tns-c21-15</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Repeat Password * Please repeat your password. Passwords do not match&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6c135d72-2316-4fde-87ef-695e1807a1df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-wrapper ng-tns-c21-15</value>
+      <webElementGuid>153a71da-001e-44da-ad49-27904d94173e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Repeat Password * Please repeat your password.  Passwords do not match </value>
+      <webElementGuid>6057f7a6-0618-4b9a-85ea-3cbb98cf466d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;registration-form&quot;)/mat-form-field[@class=&quot;mat-form-field ng-tns-c21-15 mat-accent mat-form-field-type-mat-input mat-form-field-appearance-outline mat-form-field-can-float mat-form-field-has-label ng-star-inserted ng-dirty ng-touched mat-form-field-invalid ng-invalid mat-form-field-hide-placeholder&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c21-15&quot;]</value>
+      <webElementGuid>ef0fdf2f-1e1a-4f79-a95b-750869ceb5dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='registration-form']/mat-form-field[3]/div</value>
+      <webElementGuid>2f6ff75e-3535-41fc-9e0a-8377aa63c184</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password must be 5-40 characters long.'])[1]/following::div[2]</value>
+      <webElementGuid>d0767edc-0bc5-4319-a510-79a7cd4f0b3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::div[4]</value>
+      <webElementGuid>5e488ca3-ab92-4b2d-8942-074bdfbeb172</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-form-field[3]/div</value>
+      <webElementGuid>42168e0d-fae2-4ad3-ab06-6cdf658fed99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Repeat Password * Please repeat your password.  Passwords do not match ' or . = 'Repeat Password * Please repeat your password.  Passwords do not match ')]</value>
+      <webElementGuid>679592b8-1a66-4bd4-a46c-a3dcfed34277</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

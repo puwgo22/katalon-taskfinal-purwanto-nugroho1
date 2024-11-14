@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>staging_web</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://juice-shop.herokuapp.com/'</initValue>
+      <name>baseURLjuice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'tikko908@gmail.com'</initValue>
+      <name>email_web</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'7MGyO6nNPL0MxZN8nAwIaA=='</initValue>
+      <name>password_web</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'7MGyO6nNPL0MxZN8nAwIaA=='</initValue>
+      <name>repeat_passweb</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'kagami'</initValue>
+      <name>answer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Your eldest siblings middle name?'</initValue>
+      <name>sequrity_question</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

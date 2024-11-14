@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02-TC-Failed_to_Create_without_Task_TODOO</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>363cdc1c-99f4-41d2-a376-67bd14800542</testCaseGuid>
+</TestCaseEntity>

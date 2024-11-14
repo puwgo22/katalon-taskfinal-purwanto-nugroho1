@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-TC-Update_BookingID</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a7e09f42-bdc2-49c4-a3eb-0f1e9d599a21</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-TC-Create_Task-TODOO</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>64c2c755-a081-4750-bb8f-b04ece1f7613</testCaseGuid>
+</TestCaseEntity>
