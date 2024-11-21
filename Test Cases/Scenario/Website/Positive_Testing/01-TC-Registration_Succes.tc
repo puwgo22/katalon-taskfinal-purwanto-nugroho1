@@ -37,7 +37,7 @@
       <variableId>94eaf1f5-1e6e-40f1-a44a-381ab6e40d9f</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'neruooo@gmail.com'</defaultValue>
+      <defaultValue>'baguss23@gmail.com'</defaultValue>
       <description></description>
       <id>159ad418-bc67-4ba5-9587-a9d6dd3d0a11</id>
       <masked>false</masked>
@@ -58,14 +58,14 @@
       <name>repeat_pass</name>
    </variable>
    <variable>
-      <defaultValue>'Your eldest siblings middle name?'</defaultValue>
+      <defaultValue>'Your favorite movie?'</defaultValue>
       <description></description>
       <id>d057a79f-b65f-4f09-bea6-57dbde501cc7</id>
       <masked>false</masked>
-      <name>sequrity_quetion</name>
+      <name>sequrity_question</name>
    </variable>
    <variable>
-      <defaultValue>'Senja'</defaultValue>
+      <defaultValue>'Agak Laen'</defaultValue>
       <description></description>
       <id>94eaf1f5-1e6e-40f1-a44a-381ab6e40d9f</id>
       <masked>false</masked>

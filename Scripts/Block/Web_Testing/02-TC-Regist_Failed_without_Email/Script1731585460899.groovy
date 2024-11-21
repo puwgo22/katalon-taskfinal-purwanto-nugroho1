@@ -31,9 +31,9 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Web_Testing/01-Regi
 
 WebUI.setText(findTestObject('Object Repository/Web_Testing/01-Registrasi_Web/input_email'), '')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Web_Testing/01-Registrasi_Web/input_repeat_password'), password)
+WebUI.setEncryptedText(findTestObject('Object Repository/Web_Testing/01-Registrasi_Web/input_password'), password)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Web_Testing/01-Registrasi_Web/input_password'), repeat_pass)
+WebUI.setEncryptedText(findTestObject('Object Repository/Web_Testing/01-Registrasi_Web/input_repeat_password'), repeat_pass)
 
 WebUI.click(findTestObject('Web_Testing/01-Registrasi_Web/slide-toggle-bar_advice_pass'))
 

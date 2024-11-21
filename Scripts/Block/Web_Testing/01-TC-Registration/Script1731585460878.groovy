@@ -33,10 +33,10 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Web_Testing/01-Regi
 WebUI.setText(findTestObject('Object Repository/Web_Testing/01-Registrasi_Web/input_email'), email)
 
 'Input Password'
-WebUI.setEncryptedText(findTestObject('Object Repository/Web_Testing/01-Registrasi_Web/input_repeat_password'), password)
+WebUI.setEncryptedText(findTestObject('Web_Testing/01-Registrasi_Web/input_password'), password)
 
 'Input Repeat Password'
-WebUI.setEncryptedText(findTestObject('Object Repository/Web_Testing/01-Registrasi_Web/input_password'), repeat_pass)
+WebUI.setEncryptedText(findTestObject('Web_Testing/01-Registrasi_Web/input_repeat_password'), repeat_pass)
 
 'Toggle Show Password Advice'
 WebUI.click(findTestObject('Web_Testing/01-Registrasi_Web/slide-toggle-bar_advice_pass'))
@@ -44,16 +44,15 @@ WebUI.click(findTestObject('Web_Testing/01-Registrasi_Web/slide-toggle-bar_advic
 //if (toggle == true) {
 //    WebUI.click(findTestObject('Web_Testing/01-Registrasi_Web/slide-toggle-bar_advice_pass'))
 //}
-
 'Verify Toggle Show Password Advice'
 WebUI.verifyElementVisible(findTestObject('Web_Testing/01-Registrasi_Web/slide-toggle-bar_advice_pass'), FailureHandling.STOP_ON_FAILURE)
+
 //'Verify Toggle Show Password Advice'
 //if (toggle == true) {
 //    WebUI.verifyElementText(findTestObject('Web_Testing/01-Registrasi_Web/slide-toggle-bar_advice_pass'), 'contains at least one digit')
 //} else {
 //    WebUI.verifyElementText(findTestObject('Web_Testing/01-Registrasi_Web/slide-toggle-bar_advice_pass'), 'Show password advice')
 //}
-
 WebUI.verifyElementVisible(findTestObject('Web_Testing/01-Registrasi_Web/icondone_contains at least one lower character'), 
     FailureHandling.STOP_ON_FAILURE)
 
@@ -69,7 +68,7 @@ WebUI.click(findTestObject('Web_Testing/01-Registrasi_Web/drop_security_pass_adv
 
 //WebUI.click(findTestObject('Web_Testing/01-Registrasi_Web/select_your_eldest_siblings_middle_name'), FailureHandling.STOP_ON_FAILURE)
 'Select Security Question'
-def select_dropdown = sequrity_question_pass
+def select_dropdown = sequrity_question
 
 switch (select_dropdown) {
     case select_dropdown = 'Your eldest siblings middle name?':

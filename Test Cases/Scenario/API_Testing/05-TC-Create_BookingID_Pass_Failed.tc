@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05-TC-Create_BookingID_Pass_Failed</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>48f1129e-f923-4e3d-a312-f8a59a5e90e3</testCaseGuid>
+</TestCaseEntity>

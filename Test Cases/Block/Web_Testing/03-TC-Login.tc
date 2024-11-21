@@ -19,14 +19,14 @@
       <variableId>c2597dad-ed24-4711-b446-c47b124fecaf</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>GlobalVariable.username_web</defaultValue>
+      <defaultValue>'baguss21@gmail.com'</defaultValue>
       <description></description>
       <id>26bff2c9-2742-4a22-83d6-caac8f9c67f7</id>
       <masked>false</masked>
-      <name>username</name>
+      <name>email</name>
    </variable>
    <variable>
-      <defaultValue>GlobalVariable.password_web</defaultValue>
+      <defaultValue>'7MGyO6nNPL0MxZN8nAwIaA=='</defaultValue>
       <description></description>
       <id>c2597dad-ed24-4711-b446-c47b124fecaf</id>
       <masked>false</masked>

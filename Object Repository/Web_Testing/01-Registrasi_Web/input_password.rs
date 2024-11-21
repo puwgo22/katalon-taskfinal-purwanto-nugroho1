@@ -3,22 +3,22 @@
    <description></description>
    <name>input_password</name>
    <tag></tag>
-   <elementGuidId>19ce9679-1267-4cf0-a070-b203e20cebf6</elementGuidId>
+   <elementGuidId>44779ab3-e1e1-4ef0-b9ed-ac53bbb0fd4a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='repeatPasswordControl']</value>
+         <value>//input[@id='passwordControl']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#repeatPasswordControl</value>
+         <value>#passwordControl</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Field to confirm the password&quot;i</value>
+         <value>internal:label=&quot;Field for the password&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c94cc301-56bb-4498-b3ca-ff63d48ee8d8</webElementGuid>
+      <webElementGuid>2031995b-c3ac-4c6c-886b-8cd584f62a00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>repeatPasswordControl</value>
-      <webElementGuid>f8102562-5c3a-4a06-92b6-37852b552800</webElementGuid>
+      <value>passwordControl</value>
+      <webElementGuid>a4982ef9-9529-49f9-b2ae-4e39b268adf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,31 +45,31 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>cc543bab-e9ab-48b6-b85f-65592708b992</webElementGuid>
+      <webElementGuid>9b8f6c51-1753-42d4-8585-ee21c57b87b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
-      <value>Field to confirm the password</value>
-      <webElementGuid>0f2d09df-7359-45f4-a19d-19ba7b90d0bd</webElementGuid>
+      <value>Field for the password</value>
+      <webElementGuid>e17aea2c-24ec-4521-9a3d-91b7bb2cf666</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-input-element mat-form-field-autofill-control ng-tns-c21-13 ng-untouched ng-invalid cdk-text-field-autofill-monitored ng-dirty</value>
-      <webElementGuid>bfb91c15-f453-4473-8b58-c61561526ab5</webElementGuid>
+      <value>mat-input-element mat-form-field-autofill-control ng-tns-c21-12 ng-invalid cdk-text-field-autofill-monitored ng-touched ng-dirty</value>
+      <webElementGuid>496f82c1-af3d-4e8c-aa32-240f396577b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-describedby</name>
       <type>Main</type>
-      <value>mat-hint-2</value>
-      <webElementGuid>31ccd7e0-4e92-4006-9579-3503e2ddb4a6</webElementGuid>
+      <value>mat-error-9</value>
+      <webElementGuid>5679be68-fedb-4c58-8eeb-50d8752229f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,54 +77,54 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>bc82ef99-ab24-4493-8104-60aeeec13959</webElementGuid>
+      <webElementGuid>02f8bae8-7dad-4dec-bea3-25b7b07c055e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-invalid</name>
       <type>Main</type>
-      <value>false</value>
-      <webElementGuid>e5a6a150-dfad-49f9-ba52-918f013f029d</webElementGuid>
+      <value>true</value>
+      <webElementGuid>69c20539-a9e5-4f6c-8079-a15cac58e7e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;repeatPasswordControl&quot;)</value>
-      <webElementGuid>914f45d2-03f2-4e78-953d-fd1034c84d3c</webElementGuid>
+      <value>id(&quot;passwordControl&quot;)</value>
+      <webElementGuid>e7191ac8-1f3d-4851-9aa5-7ece3a9ab3c1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='repeatPasswordControl']</value>
-      <webElementGuid>d3100e96-c377-454d-9dbc-eaf660f76591</webElementGuid>
+      <value>//input[@id='passwordControl']</value>
+      <webElementGuid>10174cc1-70c2-46d8-81d0-e78c7b43d501</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='registration-form']/mat-form-field[3]/div/div/div[3]/input</value>
-      <webElementGuid>47904143-5090-4b22-a634-361846c273a5</webElementGuid>
+      <value>//div[@id='registration-form']/mat-form-field[2]/div/div/div[3]/input</value>
+      <webElementGuid>13875956-a785-4a75-b0ea-dfa7b444dd85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-form-field[3]/div/div/div[3]/input</value>
-      <webElementGuid>9d2843ff-460a-4038-b52f-36aceac19c97</webElementGuid>
+      <value>//mat-form-field[2]/div/div/div[3]/input</value>
+      <webElementGuid>d8e832d0-4483-41a8-ae82-9ea0d9516b7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'repeatPasswordControl' and @type = 'password']</value>
-      <webElementGuid>60b7eede-e2a5-47af-ad1b-2e87aab8f75e</webElementGuid>
+      <value>//input[@id = 'passwordControl' and @type = 'password']</value>
+      <webElementGuid>7a456014-bd36-4703-9042-dbfdc3aedce1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

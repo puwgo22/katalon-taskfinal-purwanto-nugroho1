@@ -6,4 +6,30 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>b28a7d38-3da1-413b-9076-f8e91d28801a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>62acf7c9-2462-40df-95eb-39b9c0644db0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>72bcf3e7-0bc2-47f6-b10f-2e2bdc675667</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'baguss23@gmail.com'</defaultValue>
+      <description></description>
+      <id>62acf7c9-2462-40df-95eb-39b9c0644db0</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'7MGyO6nNPL0MxZN8nAwIaA=='</defaultValue>
+      <description></description>
+      <id>72bcf3e7-0bc2-47f6-b10f-2e2bdc675667</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

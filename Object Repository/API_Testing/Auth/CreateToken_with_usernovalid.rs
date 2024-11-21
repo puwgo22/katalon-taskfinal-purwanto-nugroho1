@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>CreateBooking</name>
+   <name>CreateToken_with_usernovalid</name>
    <tag></tag>
-   <elementGuidId>55cba9bd-46e9-4635-a22b-52b4fe03c9cd</elementGuidId>
+   <elementGuidId>82070622-f02e-4e21-8f94-c7bc4bd91448</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -12,7 +12,7 @@
    <followRedirects>true</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;firstname\&quot; : \&quot;Purwanto\&quot;,\n    \&quot;lastname\&quot; : \&quot;Nugroho\&quot;,\n    \&quot;totalprice\&quot; : 800000,\n    \&quot;depositpaid\&quot; : true,\n    \&quot;bookingdates\&quot; : {\n        \&quot;checkin\&quot; : \&quot;2024-11-11\&quot;,\n        \&quot;checkout\&quot; : \&quot;2024-11-14\&quot;\n    },\n    \&quot;additionalneeds\&quot; : \&quot;Massage\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;username\&quot; : \&quot;${username}\&quot;,\n    \&quot;password\&quot; : \&quot;${password}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -23,22 +23,14 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>bccf8125-21ab-4e7e-b218-61c422a78b23</webElementGuid>
-   </httpHeaderProperties>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Accept</name>
-      <type>Main</type>
-      <value>application/json</value>
-      <webElementGuid>85f63d07-7037-499d-bc04-01ddb8cb0127</webElementGuid>
+      <webElementGuid>3424e7a8-d05f-4980-9177-8588e4025854</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.7.2</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/booking</restUrl>
+   <restUrl>${GlobalVariable.baseURL}/auth</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -47,6 +39,27 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.baseURL</defaultValue>
+      <description></description>
+      <id>53467f20-74b9-44fe-8692-c4126b982e4e</id>
+      <masked>false</masked>
+      <name>host</name>
+   </variables>
+   <variables>
+      <defaultValue>'admib'</defaultValue>
+      <description></description>
+      <id>448681c5-d71c-4eb3-bc21-d7beda70f100</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.password_admin</defaultValue>
+      <description></description>
+      <id>928e5755-d29a-400e-9eb2-48e61178bc57</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -67,6 +80,6 @@ WS.verifyResponseStatusCode(response, 200)
 assertThat(response.getStatusCode()).isEqualTo(200)
 
 
-WS.verifyElementPropertyValue(response, 'booking.lastname', 'Nugroho')</verificationScript>
+WS.verifyElementPropertyValue(response, 'reason', 'Bad credentials')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

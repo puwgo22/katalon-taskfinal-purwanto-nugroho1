@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06-TC-Create_BookingID_User_Failed</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7a0f27d8-47d3-4cf9-b65f-7533f94c0986</testCaseGuid>
+</TestCaseEntity>

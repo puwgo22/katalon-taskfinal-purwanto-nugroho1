@@ -17,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Scenario/Website/01-TC-Open_Web'), [('baeURL') : GlobalVariable.baseURLjuice], FailureHandling.STOP_ON_FAILURE)
+WS.sendRequestAndVerify(findTestObject('API_Testing/Auth/CreateToken_with_passempty'))
 
-WebUI.callTestCase(findTestCase('Block/Web_Testing/01-TC-Registration'), [('email') : 'baguss23@gmail.com', ('password') : '7MGyO6nNPL0MxZN8nAwIaA=='
-        , ('answer_question') : 'Agak Laen', ('repeat_pass') : '7MGyO6nNPL0MxZN8nAwIaA==', ('sequrity_question') : 'Your favorite movie?'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Scenario/Website/02-TC-Close_Web'), [:], FailureHandling.STOP_ON_FAILURE)
+WS.sendRequestAndVerify(findTestObject('API_Testing/Auth/CreateToken_with_passnovalid'))
 

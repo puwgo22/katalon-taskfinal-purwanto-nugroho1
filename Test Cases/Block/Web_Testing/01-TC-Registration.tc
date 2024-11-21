@@ -6,15 +6,6 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>df2e176e-f6b0-4f8f-ab59-7dd5b4649863</testCaseGuid>
-   <testDataLinks>
-      <combinationType>ONE</combinationType>
-      <id>cd94f070-0a88-4fc8-9db7-c905b02ff6cb</id>
-      <iterationEntity>
-         <iterationType>ALL</iterationType>
-         <value></value>
-      </iterationEntity>
-      <testDataId>Data Files/katalonData/validLogin</testDataId>
-   </testDataLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
@@ -46,7 +37,7 @@
       <variableId>a1195dda-3b42-49a8-afab-0b109578bbfd</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'neruooo@gmail.com'</defaultValue>
+      <defaultValue>'baguss21@gmail.com'</defaultValue>
       <description></description>
       <id>f20e5f3e-1a96-4989-a6a8-999d8fdde8cc</id>
       <masked>false</masked>
@@ -60,7 +51,7 @@
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>'Senja'</defaultValue>
+      <defaultValue>'Agak Laen'</defaultValue>
       <description></description>
       <id>ee2c7ceb-2f53-4f62-8671-2b28e2f33302</id>
       <masked>false</masked>
@@ -74,10 +65,10 @@
       <name>repeat_pass</name>
    </variable>
    <variable>
-      <defaultValue>'Your eldest siblings middle name?'</defaultValue>
+      <defaultValue>'Your favorite movie?'</defaultValue>
       <description></description>
       <id>a1195dda-3b42-49a8-afab-0b109578bbfd</id>
       <masked>false</masked>
-      <name>sequrity_question_pass</name>
+      <name>sequrity_question</name>
    </variable>
 </TestCaseEntity>

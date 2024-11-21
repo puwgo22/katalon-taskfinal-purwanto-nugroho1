@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Scenario/Website/01-TC-Open_Web'), [('baeURL') : GlobalVariable.baseURLjuice], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Block/Web_Testing/01-TC-Registration'), [('username') : GlobalVariable.email_web, ('password') : GlobalVariable.password_web
-        , ('mothermaidenname') : GlobalVariable.answer, ('repeat_pass') : GlobalVariable.repeat_passweb, ('sequrity_pass') : GlobalVariable.sequrity_question], 
+WebUI.callTestCase(findTestCase('Block/Web_Testing/01-TC-Registration'), [('email') : 'baguss21@gmail.com', ('password') : '7MGyO6nNPL0MxZN8nAwIaA=='
+        , ('answer_question') : 'Agak Laen', ('repeat_pass') : '7MGyO6nNPL0MxZN8nAwIaA==', ('sequrity_question') : 'Your favorite movie?'], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Block/Web_Testing/03-TC-Login'), [('username') : GlobalVariable.email_web, ('password') : GlobalVariable.password_web], 
+WebUI.callTestCase(findTestCase('Block/Web_Testing/03-TC-Login'), [('email') : 'baguss21@gmail.com', ('password') : '7MGyO6nNPL0MxZN8nAwIaA=='], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Scenario/Website/02-TC-Close_Web'), [:], FailureHandling.STOP_ON_FAILURE)

@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.verifyElementText(findTestObject('Web_Testing/01-Registrasi_Web/h1_Login'), 'Login')
 
-WebUI.setText(findTestObject('Web_Testing/02-Login/input_login_email'), username)
+WebUI.setText(findTestObject('Web_Testing/02-Login/input_login_email'), email)
 
-WebUI.setEncryptedText(findTestObject('Web_Testing/02-Login/input_login_password'), password)
+WebUI.setText(findTestObject('Web_Testing/02-Login/input_login_password'), password)
 
 WebUI.click(findTestObject('Object Repository/Web_Testing/02-Login/button_Login'))
 

@@ -4,14 +4,23 @@
    <name>select_your_favorite_book</name>
    <tag></tag>
    <elementGuidId>21ddf30a-b3ac-4b9a-9283-f61d3688cb25</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Your favorite book? ' or . = ' Your favorite book? ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-option[@id='mat-option-14']/span</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>#mat-option-14 > span.mat-option-text</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-14']/span</value>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +38,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>54fd528d-85fe-41e8-9af7-9890a0982a3e</webElementGuid>
+      <webElementGuid>549056c0-d1b8-4320-b2c2-4054ffdf10bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>d5315ca8-a430-418b-84dd-c99173d4c3f1</webElementGuid>
+      <webElementGuid>8049c390-050c-44ff-bfcf-029475a819df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Your favorite book? </value>
-      <webElementGuid>178aa3aa-f220-4a22-8604-93024690b3c5</webElementGuid>
+      <webElementGuid>56128285-b44f-4f13-9011-37897ea03881</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-14&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>28675b3c-bdb1-43b8-a012-f9d30f1b735e</webElementGuid>
+      <webElementGuid>f44cca72-8a05-4b65-bb80-1a8118ac69c6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-14']/span</value>
-      <webElementGuid>4d83694b-292b-4e16-9eef-0030ad18ba19</webElementGuid>
+      <webElementGuid>1dc00afe-5836-4505-8045-1e3dc1d66ac0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Company you first work for as an adult?'])[1]/following::span[1]</value>
-      <webElementGuid>7e6578b8-3158-40f0-9650-e87e99fcf8bb</webElementGuid>
+      <webElementGuid>0dc2ff2d-5cfe-4900-8e70-91cdb70c6644</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your ZIP/postal code when you were a teenager?'])[1]/following::span[2]</value>
-      <webElementGuid>dabc4b78-f420-474f-832b-d16831f449b1</webElementGuid>
+      <webElementGuid>b453a870-a560-43fc-b724-a8c5bb13bddf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your favorite movie?'])[1]/preceding::span[1]</value>
-      <webElementGuid>f637794b-4e30-41aa-a707-4308a37b8a55</webElementGuid>
+      <webElementGuid>fd355848-db62-4dc5-aa43-58afbefb9305</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Number of one of your customer or ID cards?'])[1]/preceding::span[2]</value>
-      <webElementGuid>c216ce15-56f0-424e-afe4-5ddbf43742b5</webElementGuid>
+      <webElementGuid>e00960da-d7d1-42c2-bc31-dcdbbc87f93e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Your favorite book?']/parent::*</value>
-      <webElementGuid>297728dc-e276-419a-bebc-4acd7504e0ed</webElementGuid>
+      <webElementGuid>bfcd9862-073d-4bdc-a953-3fa902b4b9bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[11]/span</value>
-      <webElementGuid>548fccf6-04d2-4b19-b3d5-ceb0776caabf</webElementGuid>
+      <webElementGuid>15485647-679e-4987-b78d-806a160b1399</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' Your favorite book? ' or . = ' Your favorite book? ')]</value>
-      <webElementGuid>dfddc465-39a7-47cc-bd3e-11119984c658</webElementGuid>
+      <webElementGuid>99106010-9ac3-472c-8ccb-bda18248a860</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

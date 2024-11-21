@@ -21,12 +21,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>create_token</description>
-      <initValue>'87c9e14cbd61c63'</initValue>
+      <initValue>'e43c5af138da02b'</initValue>
       <name>token_awal</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>booking_id</description>
-      <initValue>'670'</initValue>
+      <initValue>'442'</initValue>
       <name>id</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
